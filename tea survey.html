@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Tea survey</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet"> 
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="processing and classification.html">Processing</a></li>
+<li><a href="chemical composition.html">Composition</a></li>
+<li><a href="additional processing and additives.html">Additives</a></li>
+<li><a href="culture.html">Culture</a></li>
+<li><a href="tea survey.html">Tea Survey</a></li>
+</ul>
+</nav>
+</header>
+<h1>Tea survey</h1>
+<aside>
+<figure>
+<img src="images/cup1.jpg" alt="a cup of tea" width="230" height="180"/>
+</figure>
+</aside>
+<form action="tea-survey.php" method="post">
+<fieldset>
+<legend>Personal Information</legend>
+Your Name<br/>
+<input type="text" name="name" required size="40"/><br/>
+Email Address</br>
+<input type="email" name="email" required placeholder="enter a valid email"/></br>
+</fieldset>
+<fieldset>
+<legend>Your Tea Preferences</legend>
+Tell us your tea preparation methods.</br>
+<textarea name="preparation" cols="40" rows="6"></textarea>
+<br/><br/>
+Do you drink tea with milk?<br/>
+<input type="radio" name="milk" value="yes"/>yes<br/>
+<input type="radio" name="milk" value="yes"/>no<br/>
+<br/>
+How do you drink your tea?<br/>
+<input type="checkbox" name="drink" value="sugar"/>with sugar<br/>
+<input type="checkbox" name="drink" value="sugar"/>with honey<br/>
+<input type="checkbox" name="drink" value="just tea"/>just tea<br/>
+<br/>
+What is your favorite tea drink?
+<br/>
+<select name="favorite">
+<option value="">Please select a drink</option>
+<option value="black">Black Tea</option>
+<option value="green">Green Tea</option>
+<option value="white">White Tea</option>
+<option value="herbal">Herbal Tea</option>
+<option value="rooibos">Rooibos Tea</option>
+<option value="oolog">Oolong Tea</option>
+<option value="ice">Ice Tea</option>
+</select>
+</fieldset>
+</form>
+<footer>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="processing and classification.html">Processing</a></li>
+<li><a href="chemical composition.html">Composition</a></li>
+<li><a href="additional processing and additives.html">Additives</a></li>
+<li><a href="culture.html">Culture</a></li>
+<li><a href="tea survey.html">Tea Survey</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
